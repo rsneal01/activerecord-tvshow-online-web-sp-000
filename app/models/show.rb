@@ -21,5 +21,8 @@ class Show < ActiveRecord::Base
     ratings_sum = Show.sum(:rating)
   end
   
+  def self.popular_shows
+    popular_shows = Show.where
+  end
   
 end
